@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply bg-purple-100 border-purple-400 text-purple-600;
+}
+.questionNo__Active {
+  @apply bg-purple-100 border-purple-400 text-purple-600;
+}
+.optionStyle {
+  @apply flex justify-between items-center gap-1 px-2 py-1 bg-purple-50 border border-purple-300 text-slate-800 font-medium rounded-md cursor-pointer;
+}
+.correct {
+  @apply bg-green-200 border-green-300;
+}
+.error {
+  @apply bg-red-200 border-red-300;
+}
+.style {
+  background-color: red;
+}
